@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+   <meta charset="UTF-8">
+   <title>クイズアプリ</title>
+ </head>
+ <body>
+     <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Ganymede_g1_true.jpg" alt="ガニメデ">
+ 
+     <div id="display">これは何でしょう？</div>
+     <button id="button">ガニメデ</button>
+     <button id="button">月</button>
+     <button id="button">太陽</button>
+   
+     <script>
+       const display = document.getElementById("display")
+       const button = document.getElementById("button")
+       button.onclick = function() {
+         display.textContent = "正解です"
+       }
+      
+   </script>
+    </body>
+
+</html>
